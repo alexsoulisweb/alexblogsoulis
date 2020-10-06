@@ -2,7 +2,7 @@
 from flask import Blueprint
 
 blog = Blueprint(
-    'site',
+    'blog',
     __name__,
     template_folder='templates',
     static_folder='static'
