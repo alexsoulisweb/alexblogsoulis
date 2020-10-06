@@ -1,3 +1,4 @@
+from __main__ import app
 from flask import render_template,request,Blueprint
 from blog.models import BlogPost
 
