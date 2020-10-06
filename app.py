@@ -1,6 +1,5 @@
 import os
-from flask import Flask,render_template,request
-from flask import render_template,request,Blueprint
+from flask import Flask,render_template,request,Blueprint
 
 @core.route('/')
 def index():
