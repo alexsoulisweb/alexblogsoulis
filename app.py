@@ -1,7 +1,7 @@
 import os
 from flask import Flask,render_template,request
 from flask import render_template,request,Blueprint
-from blog.models import BlogPost
+from .models import BlogPost
 
 core = Blueprint('core',__name__)
 
