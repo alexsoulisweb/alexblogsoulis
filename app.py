@@ -1,13 +1,8 @@
 import os
-from flask import app
-from flask import Flask,render_template
+from flask import blog
+from flask import Flask,render_template,request
 
 app = Flask(__name__)
-
-@core.route('/')
-def index():
-    return render_template("base.html")
-
 
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),
