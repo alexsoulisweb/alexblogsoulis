@@ -1,4 +1,6 @@
 from blog import app
 
-if __name__ == '__main__':
-    app.run(host='soulisblog.herokuapp.com')
+f __name__ == '__main__':
+    app.run(host=os.environ.get('IP'),
+            port=int(os.environ.get('PORT')),
+            debug=True
