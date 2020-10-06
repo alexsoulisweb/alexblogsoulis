@@ -6,11 +6,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def base():
-    return render_template("base.html")
+    return render_template("core/base.html")
 
 @app.route('/index')
 def index():
-    return render_template("index.html")
+    return render_template("core/index.html")
 
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),
