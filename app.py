@@ -1,7 +1,9 @@
 import os
-from flask import Flask,render_template,request
+from flask import Flask,render_template,request,Blueprint
 
 app = Flask(__name__)
+
+core = Blueprint('core',__name__)
 
 @core.route('/')
 def index():
