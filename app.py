@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def base():
-    return render_template("core.base")
+    return render_template("core.index")
 
 
 if __name__ == '__main__':
