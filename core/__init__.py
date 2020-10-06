@@ -1,7 +1,7 @@
 
 from flask import Blueprint
 
-api = Blueprint(
+blog = Blueprint(
     'site',
     __name__,
     template_folder='templates',
