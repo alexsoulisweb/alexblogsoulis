@@ -2,7 +2,7 @@ import os
 from flask import Flask, render_template
 from . import views
 
-#app = Flask(__name__)
+app = Flask(__name__)
 
 #@app.route('/')
 #def index():
