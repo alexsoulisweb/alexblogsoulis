@@ -3,8 +3,9 @@ from flask import Flask, request, abort
 
 app = Flask(__name__)
 
-# import declared routes
-import views
+@app.route('/')
+def base():
+    return render_template("base.html")
 
 
 
